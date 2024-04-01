@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="h-screen text-center mt-16">
+    <div className="min-w-[768px]  text-center mt-16">
       <h1 className="font-semibold text-red-400 text-2xl p-2 font-mono">
         Contact Me
       </h1>

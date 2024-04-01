@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-black text-white">
+    <div className= "text-white">
       <Header />
       <Outlet />
     </div>

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
-    <div className="flex h-screen justify-evenly mt-10 p-8">
-      <div className="p-8">
+    <div className="min-w-[640px]  lg:flex lg:justify-evenly mt-10 p-8">
+      <div className="pl-5 lg:p-8">
         <h1 className="font-bold text-3xl  animate-bounce text-sky-100 font-mono">
           Front-End React Developer!
         </h1>
@@ -33,7 +33,7 @@ const Body = () => {
         <img
           src={img1}
           alt="logo"
-          className="rounded-2xl hover:border border-gray-400 h-80 "
+          className="mt-12 ml-28 md:ml-32 rounded-2xl hover:border border-gray-400 h-80 lg:mt-0 lg:ml-0 "
         />
       </div>
     </div>

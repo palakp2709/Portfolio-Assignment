@@ -8,7 +8,7 @@ import amazon from "./images/amazon.jpeg";
 import spotify from "./images/spotify.jpeg";
 const Project = () => {
   return (
-    <div className="h-full">
+    <div className="min-w-[640px]">
       <h1 className="text-center mt-5 text-xl font-bold text-teal-400">
         Latest Projects ✈
       </h1>
@@ -17,10 +17,14 @@ const Project = () => {
         link of the project
       </p>
 
-      <div className="flex justify-evenly mt-5">
+      <div className=" mx-36 lg:mx-0 lg:flex lg:justify-evenly mt-5">
         <Link to={"https://youtube-react-application.netlify.app"}>
-          <div className=" w-60  rounded-xl p-2 duration-100 hover:scale-105">
-            <img src={youtube} className="h-full rounded-xl " alt="logo" />
+          <div className="w-72 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
+            <img
+              src={youtube}
+              className="lg:h-full lg:rounded-xl "
+              alt="logo"
+            />
             <div>
               <h1 className="text-sm font-semibold py-2">
                 Youtube-React-Application
@@ -46,7 +50,7 @@ const Project = () => {
         </Link>
 
         <Link to={"https://food-app-react-9927d.netlify.app"}>
-          <div className=" w-60  rounded-xl  p-2 duration-100 hover:scale-105">
+          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
             <img src={swiggy} className="h-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2 ">Food-App-React</h1>
@@ -69,7 +73,7 @@ const Project = () => {
         </Link>
 
         <Link to={"https://weatherwitz-react-app.netlify.app"}>
-          <div className=" w-60  rounded-xl p-2 duration-100 hover:scale-105">
+          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
             <img src={weather} className="h-28 w-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2">
@@ -82,9 +86,7 @@ const Project = () => {
                   per location.
                 </li>
                 <li>Applied debouncing, caching using redux.</li>
-                <Link
-                  to={"https://github.com/palakp2709/WeatherWiz-React"}
-                >
+                <Link to={"https://github.com/palakp2709/WeatherWiz-React"}>
                   <li className="text-red-200">
                     GitHub Link :{" "}
                     <i class="fa-brands fa-square-github text-xl ml-2"></i>
@@ -96,9 +98,9 @@ const Project = () => {
         </Link>
       </div>
 
-      <div className="flex justify-evenly mt-10">
+      <div className=" mx-36 lg:mx-0 lg:flex lg:justify-evenly mt-5">
         <Link to={"https://wanderlust-fronted.onrender.com"}>
-          <div className=" w-60  rounded-xl p-2 duration-100 hover:scale-105">
+          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
             <img src={project1} className="h-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2">
@@ -123,7 +125,7 @@ const Project = () => {
         </Link>
 
         <Link to={"https://amazon-clone-2dd.netlify.app"}>
-          <div className=" w-60  rounded-xl p-2 duration-100 hover:scale-105">
+          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
             <img src={amazon} className="h-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2">Amazon-Clone</h1>
@@ -144,7 +146,7 @@ const Project = () => {
         </Link>
 
         <Link to={"https://spotify-clone-1dd.netlify.app"}>
-          <div className=" w-60  rounded-xl p-2 duration-100 hover:scale-105">
+          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
             <img src={spotify} className="h-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2">Spotify-Clone</h1>
