@@ -19,7 +19,7 @@ const Project = () => {
 
       <div className=" mx-36 lg:mx-0 lg:flex lg:justify-evenly mt-5">
         <Link to={"https://youtube-react-application.netlify.app"}>
-          <div className="w-72 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
+          <div className="w-72 mt-8 md:mt-0 md:w-60  md:rounded-xl md:p-2 md:duration-100 md:hover:scale-105">
             <img
               src={youtube}
               className="lg:h-full lg:rounded-xl "
@@ -50,7 +50,7 @@ const Project = () => {
         </Link>
 
         <Link to={"https://food-app-react-9927d.netlify.app"}>
-          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
+          <div className="w-72 mt-8 md:mt-0 md:w-60  md:rounded-xl md:p-2 md:duration-100 md:hover:scale-105">
             <img src={swiggy} className="h-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2 ">Food-App-React</h1>
@@ -73,7 +73,7 @@ const Project = () => {
         </Link>
 
         <Link to={"https://weatherwitz-react-app.netlify.app"}>
-          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
+          <div className="w-72 mt-8 md:mt-0 md:w-60  md:rounded-xl md:p-2 md:duration-100 md:hover:scale-105">
             <img src={weather} className="h-28 w-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2">
@@ -100,7 +100,7 @@ const Project = () => {
 
       <div className=" mx-36 lg:mx-0 lg:flex lg:justify-evenly mt-5">
         <Link to={"https://wanderlust-fronted.onrender.com"}>
-          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
+          <div className="w-72 mt-8 md:mt-0 md:w-60  md:rounded-xl md:p-2 md:duration-100 md:hover:scale-105">
             <img src={project1} className="h-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2">
@@ -125,7 +125,7 @@ const Project = () => {
         </Link>
 
         <Link to={"https://amazon-clone-2dd.netlify.app"}>
-          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
+          <div className="w-72 mt-8 md:mt-0 md:w-60  md:rounded-xl md:p-2 md:duration-100 md:hover:scale-105">
             <img src={amazon} className="h-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2">Amazon-Clone</h1>
@@ -146,7 +146,7 @@ const Project = () => {
         </Link>
 
         <Link to={"https://spotify-clone-1dd.netlify.app"}>
-          <div className="w-72 mt-8 lg:mt-0 lg:w-60  lg:rounded-xl lg:p-2 lg:duration-100 lg:hover:scale-105">
+          <div className="w-72 mt-8 md:mt-0 md:w-60  md:rounded-xl md:p-2 md:duration-100 md:hover:scale-105">
             <img src={spotify} className="h-full rounded-lg " alt="logo" />
             <div>
               <h1 className="text-sm font-semibold py-2">Spotify-Clone</h1>
