@@ -27,7 +27,7 @@ export const Home = () => {
         <div className="md:pl-16  lg:pl-20 py-6">
           <Link
             to={
-              "https://drive.google.com/file/d/16wuD7nDSnvOaljDCZrvAxuLipTFODZZ9/view?usp=drivesdk"
+              "https://drive.google.com/file/d/1AD4sDOBmRrcLj9okhEnfkmTST3UlxAY5/view?usp=drivesdk"
             }
           >
             <button className=" border rounded-lg h-5 md:h-6 px-2 text-[0.58rem] sm:text-[0.5rem] md:text-[0.54rem] lg:text-[0.6rem]">
