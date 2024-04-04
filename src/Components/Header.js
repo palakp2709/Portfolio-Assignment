@@ -7,7 +7,7 @@ export const Header = () => {
   };
 
   return (
-    <div className="h-24 px-14 lg:px-20 flex justify-between items-center mx-auto sticky top-0 bg-[#1f566b] ">
+    <div className="h-24 px-14 lg:px-20 flex justify-between items-center mx-auto sticky top-0 bg-[#22596e] ">
         <Link to={"/"}>
           <img
             src="https://logos.textgiraffe.com/logos/logo-name/Palak-designstyle-friday-m.png"
@@ -38,7 +38,7 @@ export const Header = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 p-8 bg-[#222831] w-[40%] duration-300 ease-in-out h-full md:hidden"
+            ? "fixed left-0 top-0 p-8 bg-[#193541] w-[40%] duration-300 ease-in-out h-full md:hidden"
             : "fixed left-[-100%]"
         }
       >
