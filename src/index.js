@@ -30,6 +30,7 @@ const Routes = createBrowserRouter([
         path: "/project",
         element: <Project />,
       },
+     
     ],
   },
 ]);

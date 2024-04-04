@@ -1,30 +1,63 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 export const Header = () => {
-  return (
-    <div className=" h-24  p-4 sticky top-0 bg-black flex justify-between ">
-      <div className="flex pl-12 pt-2 ">
-        <Link to={"/"}>
-          <i className="fa-solid fa-user-tie  text-5xl text-gray-200"> </i>
-        </Link>
-      </div>
+  const [nav, setNav] = useState(false);
+  const handleClick = () => {
+    setNav(!nav);
+  };
 
-      <div className="px-16">
-        <ul className="flex p-4 mr-5  font-semibold ">
+  return (
+    <div className="h-24 px-14 lg:px-20 flex justify-between items-center mx-auto sticky top-0 bg-[#1f566b] ">
+        <Link to={"/"}>
+          <img
+            src="https://logos.textgiraffe.com/logos/logo-name/Palak-designstyle-friday-m.png"
+            alt="logo"
+            className="h-8 md:h-12"
+          />
+        </Link>
+        <ul className="hidden md:flex text-xs lg:text-[0.8rem] uppercase">
           <Link to={"/about"}>
-            <li className="mr-10 rounded-md p-1 px-2 bg-gradient-to-r from-teal-300 to-teal-800 ">
-              About{" "}
-            </li>
+            <li className="px-4 duration-100 hover:scale-110  ">About </li>
           </Link>
           <Link to={"/contact"}>
-            <li className="mr-10 rounded-md p-1 px-2 bg-gradient-to-r from-teal-300 to-teal-800 ">
-              Contact{" "}
-            </li>
+            <li className="px-4 duration-100 hover:scale-110  ">Contact </li>
           </Link>
           <Link to={"/project"}>
-            <li className="mr-10 rounded-md p-1 px-2 bg-gradient-to-r from-teal-300 to-teal-800 ">
-              Projects
-            </li>
+            <li className="px-4  duration-100 hover:scale-110  ">Projects</li>
+          </Link>
+          
+        </ul>
+        <div onClick={handleClick} className="md:hidden">
+          {!nav ? (
+            <i class="fa-solid fa-bars"></i>
+          ) : (
+            <i class="fa-solid fa-xmark"></i>
+          )}
+        </div>
+
+      <div
+        className={
+          nav
+            ? "fixed left-0 top-0 p-8 bg-[#222831] w-[40%] duration-300 ease-in-out h-full md:hidden"
+            : "fixed left-[-100%]"
+        }
+      >
+        <Link to={"/"}>
+          <img
+            src="https://logos.textgiraffe.com/logos/logo-name/Palak-designstyle-friday-m.png"
+            alt="logo"
+            className="h-8 md:h-12"
+          />
+        </Link>
+        <ul className="p-4  text-[0.66rem] uppercase">
+          <Link to={"/about"}>
+            <li className="py-4 duration-100 hover:scale-110 ">About </li>
+          </Link>
+          <Link to={"/contact"}>
+            <li className="py-4 duration-100 hover:scale-110 ">Contact </li>
+          </Link>
+          <Link to={"/project"}>
+            <li className="py-4 duration-100 hover:scale-110 ">Projects</li>
           </Link>
         </ul>
       </div>
