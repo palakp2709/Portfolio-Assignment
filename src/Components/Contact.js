@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="shadow-lg shadow-slate-300 max-w-60 m-auto rounded-md mt-12 p-4">
-      <h1 className="text-center text-sm sm:text-md text-pink-200 font-bold font-mono">
+    <div className="shadow-lg shadow-slate-300 max-w-60 m-auto rounded-md mt-20 p-4">
+      <h1 className="text-center text-xl text-pink-200 font-bold font-mono">
         Contact Me
       </h1>
-      <div className="py-1 text-[0.7rem] text-center text-[#d3d5d6cb]">
+      <div className="py-1 text-[0.8rem] text-center text-[#d3d5d6cb]">
         <p>Email : palakp2709@gmail.com</p>
       </div>
-      <div className="text-center py-2  ">
+      <div className="text-center py-4  ">
         <Link to={"https://www.linkedin.com/in/palakp2709"}>
-          <i className="fa-brands fa-linkedin  text-xl"></i>
+          <i className="fa-brands fa-linkedin  text-2xl"></i>
         </Link>
         <Link to={"https://github.com/palakp2709"}>
-          <i className="fa-brands fa-square-github text-xl ml-4"></i>
+          <i className="fa-brands fa-square-github text-2xl ml-4"></i>
         </Link>
       </div>
 
@@ -30,7 +30,7 @@ const Contact = () => {
             <input
               placeholder="Name"
               type="text"
-              className="text-center bg-neutral-700 shadow-sm  shadow-slate-400 text-[0.6rem] py-1 rounded-sm "
+              className="text-center shadow-sm  shadow-slate-400 text-[0.7rem] py-1 rounded-sm "
               required
               name="name"
             />
@@ -41,7 +41,7 @@ const Contact = () => {
               placeholder="Email"
               name="email"
               type="email"
-              className="text-center bg-neutral-700 shadow-sm shadow-slate-400 text-[0.6rem] py-1 rounded-sm"
+              className="text-center shadow-sm shadow-slate-400 text-[0.7rem] py-1 rounded-sm"
               required
             />
           </div>
@@ -50,7 +50,7 @@ const Contact = () => {
             <input
               placeholder="Mobile Number"
               name="mobile number"
-              className="text-center bg-neutral-700 shadow-sm shadow-slate-400 text-[0.6rem] py-1 rounded-sm"
+              className="text-center shadow-sm shadow-slate-400 text-[0.7rem] py-1 rounded-sm"
               required
             />
           </div>
@@ -58,19 +58,18 @@ const Contact = () => {
             <textarea
               placeholder="Write Message"
               name="message"
-              className="text-center bg-neutral-700 shadow-sm shadow-slate-400 text-[0.6rem] py-1 rounded-sm"
+              className="text-center  shadow-sm shadow-slate-400 text-[0.7rem] py-1 rounded-sm"
               required
             ></textarea>
           </div>
 
           <button
-          className=" border rounded-sm h-5  px-2 text-[0.68rem] md:text-[0.54rem] lg:text-[0.6rem]"
-          type="submit"
-           >
-          Submit
-        </button>
+            className=" border rounded-md mt-4  p-1  px-4 text-[0.8rem] "
+            type="submit"
+          >
+            Submit
+          </button>
         </div>
-       
       </form>
     </div>
   );

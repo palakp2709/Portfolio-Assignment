@@ -7,33 +7,34 @@ export const Header = () => {
   };
 
   return (
-    <div className="h-24 px-14 lg:px-20 flex justify-between items-center mx-auto sticky top-0 bg-[#22596e] ">
-        <Link to={"/"}>
-          <img
-            src="https://logos.textgiraffe.com/logos/logo-name/Palak-designstyle-friday-m.png"
-            alt="logo"
-            className="h-8 md:h-12"
-          />
+    <div className="h-24 px-14 lg:px-32 flex justify-between items-center mx-auto sticky top-0 bg-[#22596e] ">
+      <Link to={"/"}>
+        <img
+          src="https://logos.textgiraffe.com/logos/logo-name/Palak-designstyle-friday-m.png"
+          alt="logo"
+          className="h-12 md:h-14 lg:h-16"
+        />
+      </Link>
+      <ul className="hidden md:flex text-xs lg:text-[0.9rem] uppercase">
+        <Link to={"/about"}>
+          <li className="px-4 lg:px-8 duration-100 hover:scale-110  ">
+            About{" "}
+          </li>
         </Link>
-        <ul className="hidden md:flex text-xs lg:text-[0.8rem] uppercase">
-          <Link to={"/about"}>
-            <li className="px-4 duration-100 hover:scale-110  ">About </li>
-          </Link>
-          <Link to={"/contact"}>
-            <li className="px-4 duration-100 hover:scale-110  ">Contact </li>
-          </Link>
-          <Link to={"/project"}>
-            <li className="px-4  duration-100 hover:scale-110  ">Projects</li>
-          </Link>
-          
-        </ul>
-        <div onClick={handleClick} className="md:hidden">
-          {!nav ? (
-            <i class="fa-solid fa-bars"></i>
-          ) : (
-            <i class="fa-solid fa-xmark"></i>
-          )}
-        </div>
+        <Link to={"/contact"}>
+          <li className="px-4 lg:px-8 duration-100 hover:scale-110  ">Contact </li>
+        </Link>
+        <Link to={"/project"}>
+          <li className="px-4 lg:px-8 duration-100 hover:scale-110  ">Projects</li>
+        </Link>
+      </ul>
+      <div onClick={handleClick} className="md:hidden">
+        {!nav ? (
+          <i className="fa-solid fa-bars text-xl"></i>
+        ) : (
+          <i className="fa-solid fa-xmark text-xl"></i>
+        )}
+      </div>
 
       <div
         className={
@@ -46,10 +47,10 @@ export const Header = () => {
           <img
             src="https://logos.textgiraffe.com/logos/logo-name/Palak-designstyle-friday-m.png"
             alt="logo"
-            className="h-8 md:h-12"
+            className="h-12 md:h-14"
           />
         </Link>
-        <ul className="p-4  text-[0.66rem] uppercase">
+        <ul className="p-4  text-[0.8rem] uppercase">
           <Link to={"/about"}>
             <li className="py-4 duration-100 hover:scale-110 ">About </li>
           </Link>
