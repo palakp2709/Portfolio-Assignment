@@ -39,7 +39,7 @@ export const Header = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 p-8 bg-[#193541] w-[40%] duration-300 ease-in-out h-full md:hidden"
+            ? "fixed left-0 top-0 p-8 bg-[#193541] w-[38%] duration-300 ease-in-out h-full md:hidden"
             : "fixed left-[-100%]"
         }
       >
@@ -47,15 +47,16 @@ export const Header = () => {
           <img
             src="https://logos.textgiraffe.com/logos/logo-name/Palak-designstyle-friday-m.png"
             alt="logo"
-            className="h-12 md:h-14"
+            className="h-10 md:h-12 "
           />
         </Link>
-        <ul className="p-4  text-[0.8rem] uppercase">
+        <ul className="p-4  text-[0.7rem] uppercase">
           <Link to={"/about"}>
             <li className="py-4 duration-100 hover:scale-110 ">About </li>
           </Link>
           <Link to={"/contact"}>
-            <li className="py-4 duration-100 hover:scale-110 ">Contact </li>
+            <li className="py-4 duration-100 hover:scale-110 ">
+            Contact </li>
           </Link>
           <Link to={"/project"}>
             <li className="py-4 duration-100 hover:scale-110 ">Projects</li>
