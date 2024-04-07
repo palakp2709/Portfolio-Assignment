@@ -62,6 +62,8 @@ const Contact = () => {
               placeholder="Write Message"
               name="message"
               className="text-center   text-[0.7rem] bg-gray-500 py-1 rounded-sm"
+             rows={1}
+             cols={24}
               required
             ></textarea>
           </div>
