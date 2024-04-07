@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
-    <div className=" grid sm:grid-cols-4 md:grid-cols-6 gap-2  mx-auto  ">
-      <div className=" sm:col-span-2 ml-8 md:col-span-4  mt-16 sm:mt-[20vh] shadow-md  sm:pl-0 md:pl-4 lg:pl-14">
+    <div className=" grid sm:grid-cols-4 md:grid-cols-6 gap-2  mx-auto h-screen pt-12 sm:pt-32">
+      <div className=" sm:col-span-2 ml-8 md:col-span-4   shadow-md  sm:pl-0 md:pl-4 lg:pl-14">
         <h1 className="   text-[#7ED7C1] font-mono font-bold  text-md  md:text-xl lg:text-2xl w-full sm:w-64 md:w-80 lg:w-full ">
           Front-End {""}
           <ReactTyped
@@ -37,7 +37,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className=" sm:col-span-2  md:col-span-2  sm:mt-[20vh] lg:pl-6">
+      <div className=" sm:col-span-2  md:col-span-2   lg:pl-6">
         <img
           src={img1}
           alt="logo"

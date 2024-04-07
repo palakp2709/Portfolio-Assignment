@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-color: #222831;
-  background-image: url("https://img.freepik.com/premium-vector/night-forest-scrolling-background_22191-316.jpg");
+  background-color: black;
+  /* background-image: url("https://img.freepik.com/premium-vector/night-forest-scrolling-background_22191-316.jpg");
   background-size: cover;
-  min-height: 100vh;
+  min-height: 100vh; */
 }

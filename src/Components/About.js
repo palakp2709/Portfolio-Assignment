@@ -2,13 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="grid md:grid-cols-4 md:gap-2 lg:grid-cols-6  mt-10 md:mt-[25vh]">
-      <div className="duration-75 hover:scale-110 md:col-span-2 lg:col-span-3 shadow-lg shadow-gray-400 mx-auto p-1 rounded-md">
+    <div className="h-screen md:pt-14  border-t-2 border-gray-800 ">
+      <h1 className="text-center font-semibold   py-8 md:py-12 text-lg lg:text-xl text-red-300">About Me</h1>
+    <div className="grid md:grid-cols-4 md:gap-2 lg:grid-cols-6 ">
+      
+      <div className="duration-75 hover:scale-105 md:col-span-2 lg:col-span-3 bg-gray-700 mx-auto p-1 rounded-md h-44">
         <div className=" py-2 md:py-4">
-          <p className="text-center text-md  lg:text-lg text-[#f4fcffcb] font-mono font-bold">
+          <p className="text-center text-sm md:text-md   font-mono font-bold">
             Certification
           </p>
-          <p className="py-2  text-[0.7rem]  lg:text-[0.72rem]  text-[#d3d5d6cb] text-center">
+          <p className="py-2  text-[0.66rem] md:text-[0.7rem]    text-[#d3d5d6cb] text-center">
             <span className="text-[#faf4dccb]">
               Front-End Development with React{" "}
             </span>{" "}
@@ -17,24 +20,24 @@ const About = () => {
         </div>
 
         <div className="py-2">
-          <p className=" text-center  text-md lg:text-lg text-[#f4fcffcb] font-mono font-bold">
+          <p className=" text-center  text-sm md:text-md  font-mono font-bold">
             Education
           </p>
-          <p className=" text-[0.7rem]  lg:text-[0.72rem] text-[#d3d5d6cb] text-center">
+          <p className=" text-[0.66rem] md:text-[0.7rem]   text-[#d3d5d6cb] text-center">
             Bsc (Computer Science){" "}
           </p>
-          <p className="text-[0.7rem]  lg:text-[0.72rem] text-[#d3d5d6cb] text-center ">
+          <p className=" text-[0.66rem] md:text-[0.7rem]   text-[#d3d5d6cb] text-center ">
             Swami Vivekanand Govt. PG College
           </p>
         </div>
       </div>
 
-      <div className=" mt-10 w-[18rem] md:w-[19rem] md:mt-0 md:col-span-2 lg:col-span-3 shadow-lg shadow-gray-400 mx-auto p-1 rounded-md duration-75 hover:scale-110">
-        <h2 className="text-center  text-md lg:text-lg text-[#f4fcffcb] font-mono font-bold">
+      <div className="h-44 mt-10 w-[18rem] md:w-[19rem] md:mt-0 md:col-span-2 lg:col-span-3 bg-gray-700 mx-auto p-1 rounded-md duration-75 hover:scale-105">
+        <h2 className="text-center  text-sm md:text-md   font-mono font-bold">
           Skills :
         </h2>
 
-        <ul className="py-2 flex-wrap flex md:justify-center  text-[0.7rem]  lg:text-[0.72rem] text-[#ebeef0cb]  ">
+        <ul className="py-2 flex-wrap flex md:justify-center  text-[0.66rem] md:text-[0.7rem]   text-[#ebeef0cb]  ">
           <li className="ml-2">HTML,</li>
           <li className="ml-2">CSS,</li>
           <li className="ml-2">JAVASCRIPT,</li>
@@ -46,13 +49,14 @@ const About = () => {
           <li className="ml-2">GITHUB </li>
         </ul>
 
-        <p className="py-2 px-2 text-[0.7rem]  lg:text-[0.72rem] text-[#d3d5d6cb]">
+        <p className="py-2 px-2  text-[0.66rem] md:text-[0.7rem]    text-[#d3d5d6cb]">
           I'm a certified Front-End React Developer. I am highly interested in
           Reactjs. I built couple of projects, initially I started building
           small projects like todo-list, clone projects and then I built high
           scalable Apps like youtube, swiggy ✈.
         </p>
       </div>
+    </div>
     </div>
   );
 };

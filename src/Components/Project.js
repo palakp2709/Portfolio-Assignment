@@ -8,18 +8,18 @@ import amazon from "./images/amazon.jpeg";
 import spotify from "./images/spotify.jpeg";
 const Project = () => {
   return (
-    <div className="m-2 p-2">
-      <h1 className="py-2 text-center text:lg lg:text-xl  text-[#b6eb3bcb] font-mono font-bold">
+    <div className="h-fit pt-8 border-t-2 border-gray-800 ">
+      <h1 className="py-2 text-center text:lg lg:text-xl  text-[#08d3eecb] font-mono font-bold">
         Latest Projects <span className="font-sans">✈</span>
       </h1>
-      <p className="text-center text-[0.6rem] sm:text-[0.68rem]  md:text-[0.7rem] text-[#f89090cb] ">
+      <p className="text-center text-[0.6rem] sm:text-[0.68rem]  md:text-[0.7rem] text-[#f8dcdccb] ">
         Note : Just click on the project image, it will take you to the working
         demo link of the project !
       </p>
 
       {/* project started */}
       <div className=" grid md:grid-cols-6 mt-10 ">
-        <div className=" p-2 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96  shadow-lg shadow-gray-500  lg:pl-8">
+        <div className=" p-2 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96    lg:pl-8">
           <Link to={"https://youtube-react-application.netlify.app"}>
             <img
               src={youtube}
@@ -28,10 +28,10 @@ const Project = () => {
             />
           </Link>
           <div className="pt-5 ">
-            <h1 className="text-sm md:text-xs lg:text-md text-[#f4fcffcb] font-mono font-bold">
+            <h1 className="text-sm md:text-xs lg:text-md  font-mono font-bold">
               Youtube-React-Application
             </h1>
-            <ul className="text-[0.62rem] md:text-[0.58rem] py-2 lg:text-xs text-[#c4c7c9cb]  lg:w-80">
+            <ul className="text-[0.62rem] md:text-[0.58rem] py-2  text-[#c4c7c9cb]  lg:w-80">
               <li>
                 Built a high scalable application that loads within 200ms using
                 Reactjs.
@@ -41,7 +41,7 @@ const Project = () => {
               <Link
                 to={"https://github.com/palakp2709/YouTube-React-Application"}
               >
-                <li className="text-white text-[0.68rem] lg:text-[0.9rem] mt-2">
+                <li className="text-white text-[0.68rem]  mt-2">
                   GitHub Link :{" "}
                   <i class="fa-brands fa-square-github text-xl ml-2"></i>
                 </li>
@@ -50,7 +50,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className=" p-2 mt-6 md:mt-0 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96  shadow-lg shadow-gray-500  lg:pl-8">
+        <div className=" p-2 mt-6 md:mt-0 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96    lg:pl-8">
           <Link to={"https://food-app-react-9927d.netlify.app"}>
             <img
               src={swiggy}
@@ -59,10 +59,10 @@ const Project = () => {
             />
           </Link>
           <div className="pt-5">
-            <h1 className="text-sm md:text-xs lg:text-md text-[#f4fcffcb] font-mono font-bold">
+            <h1 className="text-sm md:text-xs lg:text-md  font-mono font-bold">
               Food-App-React
             </h1>
-            <ul className="text-[0.62rem] md:text-[0.58rem] py-2 lg:text-xs text-[#c4c7c9cb]  lg:w-80">
+            <ul className="text-[0.62rem] md:text-[0.58rem] py-2  text-[#c4c7c9cb]  lg:w-80">
               <li>Built a high scalable large application using Reactjs.</li>
               <li>Applied Shimmer Effect.</li>
               <li>
@@ -70,7 +70,7 @@ const Project = () => {
                 like features.
               </li>
               <Link to={"https://github.com/palakp2709/Food-React-App"}>
-                <li className="text-white text-[0.68rem] lg:text-[0.9rem] mt-2">
+                <li className="text-white text-[0.68rem]  mt-2">
                   GitHub Link :{" "}
                   <i class="fa-brands fa-square-github text-xl ml-2"></i>
                 </li>
@@ -79,7 +79,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className=" p-2 mt-6 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96  shadow-lg shadow-gray-500  lg:pl-8">
+        <div className=" p-2 mt-6 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96  lg:pl-8">
           <Link to={"https://wanderlust-fronted.onrender.com"}>
             <img
               src={project1}
@@ -88,10 +88,10 @@ const Project = () => {
             />
           </Link>
           <div className="pt-5 ">
-            <h1 className="text-sm md:text-xs lg:text-md text-[#f4fcffcb] font-mono font-bold">
+            <h1 className="text-sm md:text-xs lg:text-md  font-mono font-bold">
               WanderLust-Full-Stack
             </h1>
-            <ul className="text-[0.62rem] md:text-[0.58rem] py-2 lg:text-xs text-[#c4c7c9cb]  lg:w-80">
+            <ul className="text-[0.62rem] md:text-[0.58rem] py-2 text-[#c4c7c9cb]  lg:w-80">
               <li></li>
               <li>Applied crud oparations.</li>
               <li>Built Authentication and Authorization feature.</li>
@@ -99,7 +99,7 @@ const Project = () => {
               <Link
                 to={"https://github.com/palakp2709/Wanderlust-Mern-Project"}
               >
-                <li className="text-white text-[0.68rem] lg:text-[0.9rem] mt-2">
+                <li className="text-white text-[0.68rem]  mt-2">
                   GitHub Link :{" "}
                   <i class="fa-brands fa-square-github text-xl ml-2"></i>
                 </li>
@@ -108,7 +108,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="p-2 mt-6 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96  shadow-lg shadow-gray-500  lg:pl-8">
+        <div className="p-2 mt-6 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96    lg:pl-8">
           <Link to={"https://weatherwitz-react-app.netlify.app"}>
             <img
               src={weather}
@@ -117,10 +117,10 @@ const Project = () => {
             />
           </Link>
           <div className="pt-5">
-            <h1 className="text-sm md:text-xs lg:text-md text-[#f4fcffcb] font-mono font-bold">
+            <h1 className="text-sm md:text-xs lg:text-md font-mono font-bold">
               Weatherwitz-Apllication
             </h1>
-            <ul className="text-[0.62rem] md:text-[0.58rem] py-2 lg:text-xs text-[#c4c7c9cb]  lg:w-80">
+            <ul className="text-[0.62rem] md:text-[0.58rem] py-2  text-[#c4c7c9cb]  lg:w-80">
               <li>Built Weather application using React.</li>
               <li>
                 Used third-party api to get the information about weather as per
@@ -128,7 +128,7 @@ const Project = () => {
               </li>
               <li>Applied debouncing, caching using redux.</li>
               <Link to={"https://github.com/palakp2709/WeatherWiz-React"}>
-                <li className="text-white text-[0.68rem] lg:text-[0.9rem] mt-2">
+                <li className="text-white text-[0.68rem]  mt-2">
                   GitHub Link :{" "}
                   <i class="fa-brands fa-square-github text-xl ml-2"></i>
                 </li>
@@ -137,7 +137,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="p-2 mt-6 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96  shadow-lg shadow-gray-500  lg:pl-8">
+        <div className="p-2 mt-6 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96   lg:pl-8">
           <Link to={"https://amazon-clone-2dd.netlify.app"}>
             <img
               src={amazon}
@@ -146,16 +146,16 @@ const Project = () => {
             />
           </Link>
           <div className="pt-5 ">
-            <h1 className="text-sm md:text-xs lg:text-md text-[#f4fcffcb] font-mono font-bold">
+            <h1 className="text-sm md:text-xs lg:text-md  font-mono font-bold">
               Amazon-Clone
             </h1>
-            <ul className="text-[0.62rem] md:text-[0.58rem] py-2 lg:text-xs text-[#c4c7c9cb]  lg:w-80">
+            <ul className="text-[0.62rem] md:text-[0.58rem] py-2  text-[#c4c7c9cb]  lg:w-80">
               <li></li>
               <li>
                 Developed Amazon Website Clone using Html and Vanilla Css.
               </li>
               <Link to={"https://github.com/palakp2709/Amazon-Clone"}>
-                <li className="text-white text-[0.68rem] lg:text-[0.9rem] mt-2">
+                <li className="text-white text-[0.68rem]  mt-2">
                   GitHub Link :{" "}
                   <i class="fa-brands fa-square-github text-xl ml-2"></i>
                 </li>
@@ -164,7 +164,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="p-2 mt-6 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96  shadow-lg shadow-gray-500  lg:pl-8">
+        <div className="p-2 mt-6 mx-auto md:col-span-3 duration-75 hover:scale-105 w-64 lg:w-96    lg:pl-8">
           <Link to={"https://spotify-clone-1dd.netlify.app"}>
             <img
               src={spotify}
@@ -173,14 +173,14 @@ const Project = () => {
             />
           </Link>
           <div className="pt-5 ">
-            <h1 className="text-sm md:text-xs lg:text-md text-[#f4fcffcb] font-mono font-bold">
+            <h1 className="text-sm md:text-xs lg:text-md  font-mono font-bold">
               Spotify-Clone
             </h1>
-            <ul className="text-[0.62rem] md:text-[0.58rem] py-2 lg:text-xs text-[#c4c7c9cb]  lg:w-80">
+            <ul className="text-[0.62rem] md:text-[0.58rem] py-2  text-[#c4c7c9cb]  lg:w-80">
               <li></li>
               <li>Developed Spotify Clone using Html and Vanilla Css.</li>
               <Link to={"https://github.com/palakp2709/Spotify-Fronted-Clone"}>
-                <li className="text-white text-[0.68rem] lg:text-[0.9rem] mt-2">
+                <li className="text-white text-[0.68rem]  mt-2">
                   GitHub Link :{" "}
                   <i class="fa-brands fa-square-github text-xl ml-2"></i>
                 </li>
