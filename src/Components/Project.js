@@ -11,7 +11,7 @@ const Project = () => {
     <div className="h-fit w-full bg-[#0a192f] p-2">
       <div className="max-w-[1000px] flex flex-col justify-center  w-full  mx-auto ">
         <div className="pl-2">
-          <h1 className="  text-2xl sm:text-3xl text-[#ccd6f6] font-bold border-b-4 border-pink-600 inline">
+          <h1 className="text-4xl text-[#ccd6f6] font-bold border-b-4 border-pink-600 inline">
             Latest Projects 
           </h1>
           <p className="text-[#8892b0] text-xs sm:text-sm max-w-[600px] py-2">

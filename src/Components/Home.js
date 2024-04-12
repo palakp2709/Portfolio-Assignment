@@ -12,7 +12,7 @@ export const Home = () => {
         Palak Patel 🛫
          
         </h2>
-        <h1 className=" text-2xl sm:text-3xl md:text-4xl  text-[#8892b0] font-bold">
+        <h1 className=" text-lg sm:text-3xl md:text-4xl  text-[#8892b0] font-bold">
           Front-End {""}
           <ReactTyped
             strings={["React Developer!"]}
