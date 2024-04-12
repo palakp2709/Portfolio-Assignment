@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="h-screen w-full bg-[#0a192f] ">
       <div className="max-w-[800px] flex flex-col  h-full justify-center mx-auto p-2">
         <div>
-          <h1 className="text-4xl font-bold border-b-4 border-pink-600 inline  text-[#ccd6f6]">Contact Me</h1>
+          <h1 className="text-4xl font-bold border-b-4 border-pink-600 inline  text-[#ccd6f6]">Contact Me 🛫</h1>
           <p className="text-[#8892b0] py-2">Email : palakp2709@gmail.com</p>
         </div>
 

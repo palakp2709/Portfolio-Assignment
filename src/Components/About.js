@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-[1000px]  w-full  ">
           <div className=" md:text-center py-4 px-4">
             <p className=" text-3xl inline border-b-4 border-pink-600 text-[#ccd6f6] font-bold">
-              About Me
+              About Me 🛫
             </p>
           </div>
         </div>

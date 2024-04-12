@@ -12,7 +12,7 @@ const Project = () => {
       <div className="max-w-[1000px] flex flex-col justify-center  w-full  mx-auto ">
         <div className="pl-2">
           <h1 className="text-3xl sm:text-4xl text-[#ccd6f6] font-bold border-b-4 border-pink-600 inline">
-            Latest Projects 🏍
+            Latest Projects 🛫
           </h1>
           <p className="text-[#8892b0]  max-w-[600px] py-2">
             Just click on the project image, it will take you to the working
