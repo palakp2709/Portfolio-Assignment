@@ -8,7 +8,7 @@ export const Home = () => {
     <div className="w-full  h-screen bg-[#0a192f]">
       <div className="max-w-[1000px]  mx-auto flex flex-col  justify-center h-full px-8">
         <p className="text-pink-600">Hi, My name is </p>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl  text-[#ccd6f6] font-bold">
+        <h2 className="text-3xl md:text-4xl  text-[#ccd6f6] font-bold">
         Palak Patel 🛫
          
         </h2>
@@ -39,14 +39,6 @@ export const Home = () => {
         </div>
       </div>
 
-      {/* <div className=" sm:col-span-2  md:col-span-2   lg:pl-6">
-        <img
-          src={img1}
-          alt="logo"
-          className="mx-auto md:mx-0   h-40 w-36  rounded-full hover:scale-105 shadow-xl shadow-neutral-400
-        "
-        />
-      </div> */}
     </div>
   );
 };
