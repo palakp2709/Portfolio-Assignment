@@ -2,37 +2,67 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="h-screen md:pt-14  border-t-2 border-gray-800 ">
-      <h1 className="text-center font-semibold   py-8 md:py-12 text-lg lg:text-xl text-red-300">About Me</h1>
-    <div className="grid md:grid-cols-4 md:gap-2 lg:grid-cols-6 ">
-      
-      <div className="duration-75 hover:scale-105 md:col-span-2 lg:col-span-3 bg-gray-700 mx-auto p-1 rounded-md h-44">
-        <div className=" py-2 md:py-4">
-          <p className="text-center text-sm md:text-md   font-mono font-bold">
+    <div className="h-screen w-full bg-[#0a192f] ">
+      <div className="flex flex-col justify-center  items-center w-full h-full">
+        <div className="max-w-[1000px]  w-full  ">
+          <div className=" md:text-center py-4 px-4">
+            <p className=" text-3xl inline border-b-4 border-pink-600 text-[#ccd6f6] font-bold">
+              About Me
+            </p>
+          </div>
+        </div>
+
+        <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8  mt-4 ">
+          <div className="md:text-center px-4">
+            <div>
+              <p className="text-[#ccd6f6] text-xl font-bold ">Certification</p>
+              <p className="text-[#8892b0] ">
+                Front-End Development with React By Apna College(Delta)
+              </p>
+            </div>
+
+            <div className="mt-4 ">
+              <p className=" text-[#ccd6f6] text-xl font-bold ">Education</p>
+              <p className="text-[#8892b0]   ">Bsc (Computer Science) </p>
+              <p className="text-[#8892b0]  text-sm">Swami Vivekanand Govt. PG College</p>
+            </div>
+          </div>
+
+          <div >
+            <p className="text-[#8892b0] px-4 py-2  ">
+              I'm a certified Front-End React Developer. I am highly interested
+              in Reactjs. I built couple of projects, initially I started
+              building small projects like todo-list, clone projects and then I
+              built high scalable Apps like youtube, swiggy ✈.
+            </p>
+          </div>
+        </div>
+
+        {/* <div className=" ">
+          <p className="">
             Certification
           </p>
-          <p className="py-2  text-[0.66rem] md:text-[0.7rem]    text-[#d3d5d6cb] text-center">
-            <span className="text-[#faf4dccb]">
+          <p className="">
+            <span className="">
               Front-End Development with React{" "}
             </span>{" "}
             By Apna College(Delta)
           </p>
         </div>
 
-        <div className="py-2">
-          <p className=" text-center  text-sm md:text-md  font-mono font-bold">
+        <div className=""> 
+          <p className=" ">
             Education
           </p>
-          <p className=" text-[0.66rem] md:text-[0.7rem]   text-[#d3d5d6cb] text-center">
+          <p className=" ">
             Bsc (Computer Science){" "}
           </p>
-          <p className=" text-[0.66rem] md:text-[0.7rem]   text-[#d3d5d6cb] text-center ">
+          <p className=" ">
             Swami Vivekanand Govt. PG College
           </p>
-        </div>
-      </div>
+        </div> */}
 
-      <div className="h-44 mt-10 w-[18rem] md:w-[19rem] md:mt-0 md:col-span-2 lg:col-span-3 bg-gray-700 mx-auto p-1 rounded-md duration-75 hover:scale-105">
+        {/* <div className="h-44 mt-10 w-[18rem] md:w-[19rem] md:mt-0 md:col-span-2 lg:col-span-3 bg-gray-700 mx-auto p-1 rounded-md duration-75 hover:scale-105">
         <h2 className="text-center  text-sm md:text-md   font-mono font-bold">
           Skills :
         </h2>
@@ -55,8 +85,8 @@ const About = () => {
           small projects like todo-list, clone projects and then I built high
           scalable Apps like youtube, swiggy ✈.
         </p>
+      </div> */}
       </div>
-    </div>
     </div>
   );
 };

@@ -7,24 +7,29 @@ export const Header = () => {
   };
 
   return (
-    <div className="h-24 px-14 lg:px-24 flex justify-between items-center mx-auto sticky top-0 bg-black shadow-lg shadow-gray-600">
+    <div className="h-24 px-14 lg:px-24 flex justify-between items-center mx-auto sticky top-0 bg-[#0a192f] shadow-lg shadow-gray-600">
       <Link to={"/"}>
-        <i className="fa-solid fa-user-tie text-4xl "></i>
+        <i className="fa-solid fa-user-tie text-5xl text-pink-600 "></i>
       </Link>
-      <ul className="hidden md:flex text-[0.7rem]  uppercase">
+      <ul className="hidden md:flex  text-xs text-[#d3d9ec] uppercase">
         <Link to={"/project"}>
-          <li className="px-4 lg:pl-6 duration-100 hover:scale-110  ">
+          <li className="   hover:border-b-2 hover:border-pink-600">
             Projects
           </li>
         </Link>
+        <Link to={"/skill"}>
+          <li className=" ml-6 hover:border-b-2 hover:border-pink-600">
+            Skills
+          </li>
+        </Link>
         <Link to={"/about"}>
-          <li className="px-4 lg:px-6 duration-100 hover:scale-110  ">
-            About{" "}
+          <li className="  ml-6 hover:border-b-2 hover:border-pink-600">
+            AboutMe
           </li>
         </Link>
         <Link to={"/contact"}>
-          <li className="px-4 lg:px-6 duration-100 hover:scale-110  ">
-            Contact{" "}
+          <li className=" ml-6 hover:border-b-2 hover:border-pink-600">
+            ContactMe
           </li>
         </Link>
       </ul>
@@ -39,22 +44,22 @@ export const Header = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 p-12 bg-black w-[44%] sm:w-[40%] duration-300 ease-in-out h-full md:hidden shadow-lg shadow-gray-400"
+            ? "fixed left-0 top-0 p-12 bg-[#0a192f]  w-[44%]  duration-300 ease-in-out h-full md:hidden shadow-lg shadow-gray-400"
             : "fixed left-[-100%]"
         }
       >
         <Link to={"/"}>
-          <i className="fa-solid fa-user-tie text-4xl "></i>
+          <i className="fa-solid fa-user-tie  text-5xl text-pink-600"></i>
         </Link>
-        <ul className=" text-[0.7rem] uppercase py-2">
+        <ul className=" text-[0.7rem] uppercase py-6">
           <Link to={"/project"}>
-            <li className="py-4 duration-100 hover:scale-110 ">Projects</li>
+            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">Projects</li>
           </Link>
           <Link to={"/about"}>
-            <li className="py-4 duration-100 hover:scale-110 ">About </li>
+            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">About </li>
           </Link>
           <Link to={"/contact"}>
-            <li className="py-4 duration-100 hover:scale-110 ">Contact </li>
+            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">Contact </li>
           </Link>
         </ul>
       </div>
