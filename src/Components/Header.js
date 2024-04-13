@@ -11,7 +11,7 @@ export const Header = () => {
       <Link to={"/"}>
         <i className="fa-solid fa-user-tie text-5xl text-pink-600 "></i>
       </Link>
-      <ul className="hidden md:flex  text-xs text-[#d3d9ec] uppercase">
+      <ul className="hidden md:flex  text-sm text-[#d3d9ec] uppercase">
         <Link to={"/project"}>
           <li className="   hover:border-b-2 hover:border-pink-600">
             Projects
@@ -44,22 +44,33 @@ export const Header = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 p-12 bg-[#0a192f]  w-[44%]  duration-300 ease-in-out h-full md:hidden shadow-lg shadow-gray-400"
+            ? "fixed left-0 top-0 p-20 bg-[#0a192f]  w-[50%]  duration-300 ease-in-out h-full md:hidden shadow-lg shadow-gray-400"
             : "fixed left-[-100%]"
         }
       >
         <Link to={"/"}>
-          <i className="fa-solid fa-user-tie  text-5xl text-pink-600"></i>
+          <i className="fa-solid fa-user-tie  text-6xl text-pink-600"></i>
         </Link>
-        <ul className=" text-[0.7rem] uppercase py-6">
+        <ul className=" text-md uppercase mt-10  px-2">
           <Link to={"/project"}>
-            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">Projects</li>
+            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
+              Projects
+            </li>
+          </Link>
+          <Link to={"/skill"}>
+            <li className=" py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
+              Skills
+            </li>
           </Link>
           <Link to={"/about"}>
-            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">About </li>
+            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
+              AboutMe
+            </li>
           </Link>
           <Link to={"/contact"}>
-            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">Contact </li>
+            <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
+              ContactMe
+            </li>
           </Link>
         </ul>
       </div>
