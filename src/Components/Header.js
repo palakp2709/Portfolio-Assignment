@@ -58,7 +58,7 @@ export const Header = () => {
             </li>
           </Link>
           <Link to={"/skill"}>
-            <li className=" ml-6 hover:border-b-2 hover:border-pink-600">
+            <li className=" py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
               Skills
             </li>
           </Link>
