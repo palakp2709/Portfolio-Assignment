@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import project1 from "./images/project1.jpeg";
-import swiggy from "./images/swiggy.jpeg";
+import swiggy from "./images/swiggy.png";
 import youtube from "./images/youtube.jpeg";
 import weather from "./images/weather.jpeg";
 import amazon from "./images/amazon.jpeg";
@@ -49,7 +49,7 @@ const Project = () => {
           </div>
 
           <div className=" p-2">
-            <Link to={"https://food-app-react-9927d.netlify.app"}>
+            <Link to={"https://food-app-react-99.netlify.app"}>
               <img src={swiggy} className=" rounded-md" alt="logo" />
             </Link>
             <div className="text-xs py-2">
