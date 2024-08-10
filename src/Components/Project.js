@@ -1,11 +1,12 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+
 import project1 from "./images/project1.jpeg";
 import swiggy from "./images/swiggy.png";
 import youtube from "./images/youtube.jpeg";
 import weather from "./images/weather.jpeg";
 import amazon from "./images/amazon.jpeg";
 import spotify from "./images/spotify.jpeg";
+
 const Project = () => {
   return (
     <div className="h-fit w-full bg-[#0a192f] p-2" id="project">
@@ -20,6 +21,7 @@ const Project = () => {
           </p>
         </div>
 
+        {/* first project */}
         <div className=" mt-6 grid  sm:grid-cols-2 md:grid-cols-3 gap-10 h-full ">
           <div className=" p-2 ">
             <a href={"https://youtube-react-application.netlify.app"}>
@@ -36,8 +38,13 @@ const Project = () => {
                 </li>
                 <li>Applied Shimmer Effect.</li>
                 <li>Applied debouncing, caching using redux.</li>
+                <li className="text-red-100">
+                  Note : Please use Cors Extension in your system{" "}
+                </li>
                 <a
-                  href={"https://github.com/palakp2709/YouTube-React-Application"}
+                  href={
+                    "https://github.com/palakp2709/YouTube-React-Application"
+                  }
                 >
                   <li>
                     GitHub Link :{" "}
@@ -48,54 +55,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className=" p-2">
-            <a href={"https://food-app-react-99.netlify.app"}>
-              <img src={swiggy} className=" rounded-md" alt="logo" />
-            </a>
-            <div className="text-xs py-2">
-              <h1 className="text-[#ccd6f6] font-bold">Food-App-React</h1>
-              <ul className="text-[#8892b0] ">
-                <li>Built a high scalable large application using Reactjs.</li>
-                <li>Applied Shimmer Effect.</li>
-                <li>
-                  Used redux to add items in the cart. Built top rated
-                  restaurants like features.
-                </li>
-                <a href={"https://github.com/palakp2709/Food-React-App"}>
-                  <li className="">
-                    GitHub Link :{" "}
-                    <i class="fa-brands fa-square-github text-xl ml-2"></i>
-                  </li>
-                </a>
-              </ul>
-            </div>
-          </div>
-
-          <div className="p-2">
-            <a href={"https://wanderlust-fronted.onrender.com"}>
-              <img src={project1} className="rounded-md" alt="logo" />
-            </a>
-            <div className="text-xs py-2 ">
-              <h1 className="text-[#ccd6f6] font-bold">
-                WanderLust-Full-Stack
-              </h1>
-              <ul className="text-[#8892b0] ">
-                <li></li>
-                <li>Applied crud oparations.</li>
-                <li>Built Authentication and Authorization feature.</li>
-                <li>Built Dynamic routing using react-router-dom </li>
-                <a
-                  href={"https://github.com/palakp2709/Wanderlust-Mern-Project"}
-                >
-                  <li className="">
-                    GitHub Link :{" "}
-                    <i class="fa-brands fa-square-github text-xl ml-2"></i>
-                  </li>
-                </a>
-              </ul>
-            </div>
-          </div>
-
+          {/* second project */}
           <div className="p-2 ">
             <a href={"https://weatherwitz-react-app.netlify.app"}>
               <img
@@ -125,18 +85,66 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="p-2 ">
-            <a href={"https://amazon-clone-2dd.netlify.app"}>
-              <img
-                src={amazon}
-                className=" rounded-md "
-                alt="logo"
-              />
+          {/* third project */}
+          <div className=" p-2">
+            <a href={"https://food-app-react-99.netlify.app"}>
+              <img src={swiggy} className=" rounded-md" alt="logo" />
+            </a>
+            <div className="text-xs py-2">
+              <h1 className="text-[#ccd6f6] font-bold">Food-App-React</h1>
+              <ul className="text-[#8892b0] ">
+                <li>Built a high scalable large application using Reactjs.</li>
+                <li>Applied Shimmer Effect.</li>
+                <li>
+                  Used redux to add items in the cart. Built top rated
+                  restaurants like features.
+                </li>
+                <li className="text-red-100">
+                  Note : Please use Cors Extension in your system{" "}
+                </li>
+                <a href={"https://github.com/palakp2709/Food-React-App"}>
+                  <li className="">
+                    GitHub Link :{" "}
+                    <i class="fa-brands fa-square-github text-xl ml-2"></i>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+          {/* fourth project */}
+          <div className="p-2">
+            <a href={"https://wanderlust-fronted.onrender.com"}>
+              <img src={project1} className="rounded-md" alt="logo" />
             </a>
             <div className="text-xs py-2 ">
               <h1 className="text-[#ccd6f6] font-bold">
-                Amazon-Clone
+                WanderLust-Full-Stack
               </h1>
+              <ul className="text-[#8892b0] ">
+                <li></li>
+                <li>Applied crud oparations.</li>
+                <li>Built Authentication and Authorization feature.</li>
+                <li>Built Dynamic routing using react-router-dom </li>
+                <a
+                  href={"https://github.com/palakp2709/Wanderlust-Mern-Project"}
+                >
+                  <li className="">
+                    GitHub Link :{" "}
+                    <i class="fa-brands fa-square-github text-xl ml-2"></i>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+          {/* Fifth project */}
+          <div className="p-2 ">
+            <a href={"https://amazon-clone-2dd.netlify.app"}>
+              <img src={amazon} className=" rounded-md " alt="logo" />
+            </a>
+            <div className="text-xs py-2 ">
+              <h1 className="text-[#ccd6f6] font-bold">Amazon-Clone</h1>
               <ul className="text-[#8892b0]">
                 <li>
                   Developed Amazon Website Clone using Html and Vanilla Css.
@@ -151,25 +159,18 @@ const Project = () => {
             </div>
           </div>
 
+          {/* Sixth project */}
           <div className="p-2 ">
             <a href={"https://spotify-clone-1dd.netlify.app"}>
-              <img
-                src={spotify}
-                className="rounded-md "
-                alt="logo"
-              />
+              <img src={spotify} className="rounded-md " alt="logo" />
             </a>
             <div className="text-xs py-2 ">
-              <h1 className="text-[#ccd6f6] font-bold">
-                Spotify-Clone
-              </h1>
+              <h1 className="text-[#ccd6f6] font-bold">Spotify-Clone</h1>
               <ul className="text-[#8892b0]">
                 <li></li>
                 <li>Developed Spotify Clone using Html and Vanilla Css.</li>
-                <a
-                  href={"https://github.com/palakp2709/Spotify-Fronted-Clone"}
-                >
-                  <li >
+                <a href={"https://github.com/palakp2709/Spotify-Fronted-Clone"}>
+                  <li>
                     GitHub Link :{" "}
                     <i class="fa-brands fa-square-github text-xl ml-2"></i>
                   </li>
@@ -179,8 +180,6 @@ const Project = () => {
           </div>
         </div>
       </div>
-
-    
     </div>
   );
 };
