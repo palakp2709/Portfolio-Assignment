@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 export const Home = () => {
   return (
-    <div className="w-full  h-screen bg-[#0a192f]" id="/">
+    <div className="w-full  h-screen bg-[#0a192f]" id="home">
       <div className="max-w-[1000px]  mx-auto flex flex-col  justify-center h-full px-8">
         <p className="text-pink-600">Hi, My name is </p>
         <h2 className="text-3xl md:text-4xl  text-[#ccd6f6] font-bold">
