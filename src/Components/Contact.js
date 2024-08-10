@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="h-screen w-full bg-[#0a192f] ">
+    <div className="h-screen w-full bg-[#0a192f] " id="contact">
       <div className="max-w-[800px] flex flex-col  h-full justify-center mx-auto p-2">
         <div>
           <h1 className="text-4xl font-bold border-b-4 border-pink-600 inline  text-[#ccd6f6]">Contact Me 🛫</h1>
@@ -11,13 +11,13 @@ const Contact = () => {
         </div>
 
         <div className=" flex justify-center py-2">
-          <Link to={"https://www.linkedin.com/in/palakp2709"}>
+          <a href={"https://www.linkedin.com/in/palakp2709"}>
             <i className="fa-brands fa-linkedin  text-2xl text-sky-600"></i>
-          </Link>
+          </a>
 
-          <Link to={"https://github.com/palakp2709"}>
+          <a href={"https://github.com/palakp2709"}>
           <i className="fa-brands fa-github text-2xl ml-6"></i>
-          </Link>
+          </a>
         </div>
 
         <form

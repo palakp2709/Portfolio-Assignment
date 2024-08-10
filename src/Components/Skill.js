@@ -2,7 +2,8 @@ import React from "react";
 
 const Skill = () => {
   return (
-    <div className="w-full  h-screen bg-[#0a192f]">
+    
+    <div className="w-full  h-screen bg-[#0a192f]" id="skill">
       <div className="max-w-[1000px] w-full h-full mx-auto flex flex-col justify-center">
         <div className="pl-4">
           <h1 className="text-4xl  text-[#ccd6f6] font-bold border-b-4 border-pink-600 inline">
@@ -56,6 +57,7 @@ const Skill = () => {
         </div>
       </div>
     </div>
+   
   );
 };
 

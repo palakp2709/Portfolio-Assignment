@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 export const Header = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
@@ -8,30 +8,30 @@ export const Header = () => {
 
   return (
     <div className="h-24 px-14 lg:px-24 flex justify-between items-center mx-auto sticky top-0 bg-[#0a192f] shadow-lg shadow-gray-600">
-      <Link to={"/"}>
+      <a href={"/"}>
         <i className="fa-solid fa-user-tie text-5xl text-pink-600 "></i>
-      </Link>
+      </a>
       <ul className="hidden md:flex  text-xs text-[#d3d9ec] uppercase">
-        <Link to={"/project"}>
+        <a href={"#project"}>
           <li className="   hover:border-b-2 hover:border-pink-600">
             Projects
           </li>
-        </Link>
-        <Link to={"/skill"}>
+        </a>
+        <a href="#skill">
           <li className=" ml-6 hover:border-b-2 hover:border-pink-600">
             Skills
           </li>
-        </Link>
-        <Link to={"/about"}>
+        </a>
+        <a href={"#about"}>
           <li className="  ml-6 hover:border-b-2 hover:border-pink-600">
             AboutMe
           </li>
-        </Link>
-        <Link to={"/contact"}>
+        </a>
+        <a href={"#contact"}>
           <li className=" ml-6 hover:border-b-2 hover:border-pink-600">
             ContactMe
           </li>
-        </Link>
+        </a>
       </ul>
       <div onClick={handleClick} className="md:hidden">
         {!nav ? (
@@ -48,31 +48,31 @@ export const Header = () => {
             : "fixed left-[-100%]"
         }
       >
-        <Link to={"/"}>
+        <a href={"/"}>
           <i className="fa-solid fa-user-tie  text-5xl text-pink-600"></i>
-        </Link>
+        </a>
         <ul className=" text-[0.7rem] uppercase py-6">
-          <Link to={"/project"}>
+          <a href={"/project"}>
             <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
               Projects
             </li>
-          </Link>
-          <Link to={"/skill"}>
+          </a>
+          <a href={"/skill"}>
             <li className=" py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
               Skills
             </li>
-          </Link>
-          <Link to={"/about"}>
+          </a>
+          <a href={"/about"}>
             <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
               {" "}
               AboutMe{" "}
             </li>
-          </Link>
-          <Link to={"/contact"}>
+          </a>
+          <a href={"/contact"}>
             <li className="py-4 duration-500 hover:scale-110 text-[#d3d9ec]">
               ContactMe{" "}
             </li>
-          </Link>
+          </a>
         </ul>
       </div>
     </div>
