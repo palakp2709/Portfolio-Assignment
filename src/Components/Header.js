@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <div className="h-24 px-14 lg:px-24 flex justify-between items-center mx-auto sticky top-0 bg-[#0a192f] shadow-lg shadow-gray-600">
-      <a href={"/"}>
+      <a href="#/">
         <i className="fa-solid fa-user-tie text-5xl text-pink-600 "></i>
       </a>
       <ul className="hidden md:flex  text-xs text-[#d3d9ec] uppercase">
