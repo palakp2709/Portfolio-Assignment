@@ -11,11 +11,11 @@ import Skill from "./Components/Skill";
 
 const Routes = createBrowserRouter([
   {
-    path: "/",
+    path: "/Portfolio-Assignment",
     element: <App />,
     children: [
       { 
-        path: "/", 
+        path: "/Portfolio-Assignment", 
         element: <Body /> 
       },
       {
