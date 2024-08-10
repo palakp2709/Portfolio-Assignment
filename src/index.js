@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Body from "./Components/Body";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Project from "./Components/Project";
 import Skill from "./Components/Skill";
 
-const Routes = createBrowserRouter([
+const Routes = createHashRouter([
   {
     path: "/Portfolio-Assignment",
     element: <App />,
