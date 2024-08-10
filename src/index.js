@@ -42,7 +42,7 @@ const Routes = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={Routes}></RouterProvider>
+    <RouterProvider router={Routes} baseName="/Portfolio-Assignment"></RouterProvider>
   </React.StrictMode>
 );
 
